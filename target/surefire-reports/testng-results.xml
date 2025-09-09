@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T01:31:32 IST" name="Cucumber Suite" finished-at="2025-09-09T01:35:40 IST" duration-ms="248296">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-09T01:31:32 IST" name="Cucumber Tests" finished-at="2025-09-09T01:35:40 IST" duration-ms="248296">
+      <class name="TestRunner.MyTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:31:32 IST" name="setUpClass" finished-at="2025-09-09T01:31:33 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:31:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:31:42 IST" duration-ms="9402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Contact Us page displays contact information and icons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Contact Us Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:31:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:31:58 IST" duration-ms="15537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Google Maps is embedded on Contact Us page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Contact Us Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:31:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:32:19 IST" duration-ms="21425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration attempt with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:32:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:33:16 IST" duration-ms="56841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login attempt using previously-registered or fallback credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:33:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:33:46 IST" duration-ms="29676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login attempt using previously-registered or fallback credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:33:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:33:57 IST" duration-ms="11130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page basic verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:33:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:34:13 IST" duration-ms="16052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hovering Programs menu shows sub-links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:34:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:34:19 IST" duration-ms="6318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Health programs are listed under Programs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:34:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:34:26 IST" duration-ms="7278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["At least one expected resource link is present on Home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:34:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:34:48 IST" duration-ms="21626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search returns results for a query"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page and Account flows]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:34:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:34:56 IST" duration-ms="7629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Tobacco Program"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Health Programs navigation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:34:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:35:06 IST" duration-ms="10527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to AHEC Scholars Program"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Health Programs navigation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:35:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:35:25 IST" duration-ms="18523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Healthy Aging Program"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Health Programs navigation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:35:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T01:35:37 IST" duration-ms="12444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Covering Florida Program"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Health Programs navigation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.MyTestRunner@235ecd9f]" started-at="2025-09-09T01:35:37 IST" name="tearDownClass" finished-at="2025-09-09T01:35:40 IST" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.MyTestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Cucumber Suite -->
+</testng-results>

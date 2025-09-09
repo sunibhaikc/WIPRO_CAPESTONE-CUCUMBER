@@ -1,0 +1,1461 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-09-09T04:11:30.994Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4855728100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Contact Us page displays contact information and icons",
+        "description": "",
+        "id": "validate-contact-us-page;verify-contact-us-page-displays-contact-information-and-icons",
+        "after": [
+          {
+            "result": {
+              "duration": 241934900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4567018500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user opens the Contact Us page",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_user_opens_the_contact_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70281200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the contact section should contain \"CONTACT US WITH EASE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CONTACT US WITH EASE\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.ContactUsSteps.the_contact_section_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86939200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the address icon must be visible",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_address_icon_must_be_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93175600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the call us icon must be visible",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_call_us_icon_must_be_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66917600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the fax icon must be visible",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_fax_icon_must_be_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68629500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the email icon must be visible",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_email_icon_must_be_visible()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:11:41.134Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1399017700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify Google Maps is embedded on Contact Us page",
+        "description": "",
+        "id": "validate-contact-us-page;verify-google-maps-is-embedded-on-contact-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 841850100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2077721700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user opens the Contact Us page",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_user_opens_the_contact_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3010088000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the Google Maps iframe should be visible",
+            "match": {
+              "location": "StepDefinitions.ContactUsSteps.the_google_maps_iframe_should_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Contact Us Page",
+    "description": "",
+    "id": "validate-contact-us-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/contactUs.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36711800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:11:48.542Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1842055400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Registration attempt with valid credentials",
+        "description": "",
+        "id": "home-page-and-account-flows;registration-attempt-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 354674300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6597171600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user navigates to the \"My Account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_navigates_to_the_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1783366700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user fills the registration form with username \"Jyotirmay\", email \"jyotirmaypanja@gmail.com\" and password \"Jyoti@2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jyotirmay\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"jyotirmaypanja@gmail.com\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"Jyoti@2020\"",
+                  "offset": 110
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_fills_the_registration_form_with_username_email_and_password(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5523548800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks the Register button",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_clicks_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the registration attempt should be recorded (success or graceful failure allowed)",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_registration_attempt_should_be_recorded_success_or_graceful_failure_allowed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:12:04.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1310471500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login attempt using previously-registered or fallback credentials",
+        "description": "",
+        "id": "home-page-and-account-flows;login-attempt-using-previously-registered-or-fallback-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 374885800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5807315700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user navigates to the \"My Account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_navigates_to_the_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17063017500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user logs in with username_or_email \"nietsiddhant@gmail.com\" and password \"JBLMAC@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nietsiddhant@gmail.com\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"JBLMAC@123\"",
+                  "offset": 78
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_logs_in_with_username_or_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the login attempt should be recorded (logged-in indicator or graceful failure)",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_login_attempt_should_be_recorded_logged_in_indicator_or_graceful_failure()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:12:29.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1293542300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login attempt using previously-registered or fallback credentials",
+        "description": "",
+        "id": "home-page-and-account-flows;login-attempt-using-previously-registered-or-fallback-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1071726100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5254784000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user navigates to the \"My Account\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_navigates_to_the_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10526387100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user logs in with username_or_email \"jyotirmaypanja@gmail.com\" and password \"Jyoti@2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jyotirmaypanja@gmail.com\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Jyoti@2020\"",
+                  "offset": 80
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_logs_in_with_username_or_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the login attempt should be recorded (logged-in indicator or graceful failure)",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_login_attempt_should_be_recorded_logged_in_indicator_or_graceful_failure()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:12:47.463Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1169176600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Home page basic verification",
+        "description": "",
+        "id": "home-page-and-account-flows;home-page-basic-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 257139400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3706523800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34566500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the navigation menu should be present",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_navigation_menu_should_be_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30717900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the search input should be present",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_search_input_should_be_present()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homebasic"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1534900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:12:52.682Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1049572100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Hovering Programs menu shows sub-links",
+        "description": "",
+        "id": "home-page-and-account-flows;hovering-programs-menu-shows-sub-links",
+        "after": [
+          {
+            "result": {
+              "duration": 263348500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3674220200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 902957800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user hovers over the \"Programs\" menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Programs\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_hovers_over_the_menu(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85705100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the \"Tobacco\" link should be visible under Programs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tobacco\"",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_link_should_be_visible_under_programs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hover"
+          },
+          {
+            "name": "@navigation"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:12:58.695Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1252165300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Health programs are listed under Programs",
+        "description": "",
+        "id": "home-page-and-account-flows;health-programs-are-listed-under-programs",
+        "after": [
+          {
+            "result": {
+              "duration": 230750200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4060820100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219415500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user expands the Programs menu",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_expands_the_programs_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333980300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the following program links should be visible:",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_following_program_links_should_be_visible(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Tobacco"
+                ]
+              },
+              {
+                "cells": [
+                  "AHEC Scholars"
+                ]
+              },
+              {
+                "cells": [
+                  "Healthy Aging"
+                ]
+              },
+              {
+                "cells": [
+                  "Covering Florida"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@programs"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:13:04.820Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1218327400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "At least one expected resource link is present on Home page",
+        "description": "",
+        "id": "home-page-and-account-flows;at-least-one-expected-resource-link-is-present-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 248914400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3948273300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119005300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "at least one resource link from the list should be visible:",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.at_least_one_resource_link_from_the_list_should_be_visible(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contact Us"
+                ]
+              },
+              {
+                "cells": [
+                  "News"
+                ]
+              },
+              {
+                "cells": [
+                  "CPR Classes"
+                ]
+              },
+              {
+                "cells": [
+                  "Shop"
+                ]
+              },
+              {
+                "cells": [
+                  "Home"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@resources"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the site base URL is \"https://westfloridaahec.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://westfloridaahec.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_site_base_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:13:10.374Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1244328100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Search returns results for a query",
+        "description": "",
+        "id": "home-page-and-account-flows;search-returns-results-for-a-query",
+        "after": [
+          {
+            "result": {
+              "duration": 251274300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3618516800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the user is on the Home page",
+            "match": {
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2536586400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user searches for \"tobacco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tobacco\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_user_searches_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41679000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the search results should contain the term \"tobacco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tobacco\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinitions.CapstoneHomePageSteps.the_search_results_should_contain_the_term(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Home page and Account flows",
+    "description": "  As a user of the West Florida AHEC site\n  I want to register, login, and verify core home-page functionality\n  So that account flows and primary navigation/search features work",
+    "id": "home-page-and-account-flows",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/home.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-09-09T04:13:18.083Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1137488700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Navigate to Tobacco Program",
+        "description": "",
+        "id": "verify-health-programs-navigation;navigate-to-tobacco-program",
+        "after": [
+          {
+            "result": {
+              "duration": 263958800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1933945100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens to homepage for programs",
+            "match": {
+              "location": "StepDefinitions.ProgramsSteps.user_opens_to_homepage_for_programs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4380040700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to \"Tobacco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tobacco\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.user_navigate_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 388936300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Tobacco\" program content should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tobacco\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.program_content_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:13:26.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1308165600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navigate to AHEC Scholars Program",
+        "description": "",
+        "id": "verify-health-programs-navigation;navigate-to-ahec-scholars-program",
+        "after": [
+          {
+            "result": {
+              "duration": 317574600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4262522900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user opens the homepage for programs",
+            "match": {
+              "location": "StepDefinitions.ProgramsSteps.user_opens_the_homepage_for_programs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 879119300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user hovers on Programs and clicks \"AHEC Scholars\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AHEC Scholars\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.user_hovers_on_programs_and_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1738719200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"AHEC Scholars\" program content should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AHEC Scholars\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.program_content_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:13:34.737Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1250027800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Navigate to Healthy Aging Program",
+        "description": "",
+        "id": "verify-health-programs-navigation;navigate-to-healthy-aging-program",
+        "after": [
+          {
+            "result": {
+              "duration": 267676400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2224459200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user opens the homepage for programs",
+            "match": {
+              "location": "StepDefinitions.ProgramsSteps.user_opens_the_homepage_for_programs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3791407400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user hovers on Programs and clicks \"Healthy Aging\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Healthy Aging\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.user_hovers_on_programs_and_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1741285700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"Healthy Aging\" program content should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Healthy Aging\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.program_content_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-09T04:13:44.032Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1108853200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Navigate to Covering Florida Program",
+        "description": "",
+        "id": "verify-health-programs-navigation;navigate-to-covering-florida-program",
+        "after": [
+          {
+            "result": {
+              "duration": 442224600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2053565500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user opens the homepage for programs",
+            "match": {
+              "location": "StepDefinitions.ProgramsSteps.user_opens_the_homepage_for_programs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3711314800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user hovers on Programs and clicks \"Covering Florida\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Covering Florida\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.user_hovers_on_programs_and_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6305896300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"Covering Florida\" program content should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Covering Florida\"",
+                  "offset": 0
+                }
+              ],
+              "location": "StepDefinitions.ProgramsSteps.program_content_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Health Programs navigation",
+    "description": "",
+    "id": "verify-health-programs-navigation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/programs.feature",
+    "tags": []
+  }
+]
